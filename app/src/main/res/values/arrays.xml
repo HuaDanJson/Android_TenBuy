@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="arrTabTitles">
+        <item>精选</item>
+        <item>10元</item>
+        <item>20元</item>
+        <item>30元</item>
+    </string-array>
+    <string-array name="name">
+        <item>最新上线</item>
+        <item>昨日上新</item>
+        <item>最后疯抢</item>
+        <item>精致女装</item>
+        <item>鞋包配饰</item>
+        <item>居家生活</item>
+        <item>美妆个户</item>
+        <item>美食零食</item>
+        <item>母婴用品</item>
+        <item>数码家电</item>
+        <item>精品男装</item>
+        <item>文体用品</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/brandTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <ImageView
+                android:id="@+id/tm_one_img1"
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true" />
+            <TextView
+                android:textSize="14sp"
+                android:id="@+id/tm_one_text"
+                android:paddingLeft="3dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="品牌名"
+                android:singleLine="true"
+                android:layout_toRightOf="@+id/tm_one_img1"
+                android:layout_centerVertical="true" />
+            <TextView android:textSize="13sp"
+                android:id="@+id/tm_time"
+                android:paddingRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="剩6天"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+            <TextView
+                android:textSize="12sp"
+                android:id="@+id/tm_priceDistcount"
+                android:paddingLeft="8dp"
+                android:paddingTop="2dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="3.5折起"
+                android:layout_toLeftOf="@+id/tm_time"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:padding="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0">
+                    <ImageView android:id="@+id/tm_brand_pic_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/jky_bg"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"/>
+                    <RelativeLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_alignParentBottom="true">
+                        <TextView
+                            android:textSize="12sp"
+                            android:gravity="center_vertical"
+                            android:id="@+id/tm_productPrice1"
+                            android:paddingLeft="7dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="¥0.00" />
+                        <TextView
+                            android:textSize="10sp"
+                            android:gravity="center_vertical"
+                            android:id="@+id/tm_productZhe1"
+                            android:paddingLeft="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="0.0折"
+                            android:layout_toRightOf="@+id/tm_productPrice1" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="2.0">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <RelativeLayout
+                            android:id="@+id/tm_sale_rpic1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="3dp"
+                            android:layout_weight="1.0">
+                            <ImageView
+                                android:id="@+id/tm_brand_pic_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/jky_bg"
+                                android:scaleType="fitXY"
+                                android:adjustViewBounds="true"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true" />
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:layout_alignParentBottom="true">
+                                <TextView
+                                    android:textSize="12sp"
+                                    android:gravity="center_vertical"
+                                    android:id="@+id/tm_productPrice2"
+                                    android:paddingLeft="7dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="¥0.00" />
+                                <TextView
+                                    android:textSize="11sp"
+                                    android:gravity="center_vertical"
+                                    android:id="@+id/tm_productZhe2"
+                                    android:paddingLeft="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="0.0折"
+                                    android:layout_toRightOf="@+id/tm_productPrice2" />
+                            </RelativeLayout>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/tm_sale_rpic2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.0"
+                            android:layout_below="@+id/tm_sale_rpic1">
+                            <ImageView
+                                android:id="@+id/tm_brand_pic_3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/jky_bg"
+                                android:scaleType="fitXY"
+                                android:adjustViewBounds="true"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentBottom="true" />
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:layout_alignParentBottom="true">
+                                <TextView
+                                    android:textSize="12sp"
+                                    android:gravity="center_vertical"
+                                    android:id="@+id/tm_productPrice3"
+                                    android:paddingLeft="7dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="¥0.00" />
+                                <TextView
+                                    android:textSize="10sp"
+                                    android:gravity="center_vertical"
+                                    android:id="@+id/tm_productZhe3"
+                                    android:paddingLeft="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="0.0折"
+                                    android:layout_toRightOf="@+id/tm_productPrice3" />
+                            </RelativeLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

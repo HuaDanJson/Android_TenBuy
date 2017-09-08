@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="#FF3366"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <ImageView
+            android:id="@+id/mine_Fragment_setting"
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/icon_setup"
+            android:layout_alignParentRight="true"
+            />
+            <Button
+                android:textSize="10sp"
+                android:textColor="#FFF"
+                android:id="@+id/mine_fragment_perporstyle"
+                android:background="@drawable/border"
+                android:layout_width="60dp"
+                android:layout_height="26dp"
+                android:text="美女"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true" />
+            <Button
+                android:textColor="#FF0033"
+                android:id="@+id/mine_fragment_login"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:text="立即登录"
+                android:layout_above="@+id/mine_fragment_perporstyle"
+                android:layout_centerHorizontal="true"
+                />
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#FFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/btn_indent"
+                android:paddingLeft="25dp"
+                android:clickable="true"
+                android:background="@drawable/onclick"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <ImageView
+                    android:id="@+id/mine_fragment_indent"
+                    android:background="@drawable/usericon_order"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+                <TextView
+                    android:textSize="15sp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="去淘宝查看订单"
+                    android:layout_toRightOf="@+id/mine_fragment_indent"
+                    android:layout_centerVertical="true" />
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/btn_right_arrow"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"/>
+            <RelativeLayout
+                android:id="@+id/btn_loginstics"
+                android:paddingLeft="25dp"
+                android:clickable="true"
+                android:background="@drawable/onclick"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <ImageView 
+                    android:id="@+id/mine_fragment_logistics"
+                    android:background="@drawable/usericon_address"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+                <TextView 
+                    android:textSize="15sp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:text="去淘宝查看物流信息"
+                    android:layout_toRightOf="@+id/mine_fragment_logistics"
+                    android:layout_centerVertical="true" />
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/btn_right_arrow"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"/>
+            <RelativeLayout
+                android:id="@+id/btn_shop"
+                android:paddingLeft="25dp"
+                android:clickable="true"
+                android:background="@drawable/onclick"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <ImageView android:id="@+id/mine_fragment_shop"
+                    android:background="@drawable/usericon_shoppingcart"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+                <TextView
+                    android:textSize="15sp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="去淘宝查看我的购物车"
+                    android:layout_toRightOf="@+id/mine_fragment_shop"
+                    android:layout_centerVertical="true" />
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/btn_right_arrow"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"/>
+            <RelativeLayout
+                android:id="@+id/btn_collects"
+                android:paddingLeft="25dp"
+                android:clickable="true"
+                android:background="@drawable/onclick"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <ImageView
+                    android:id="@+id/mine_fragment_collect"
+                    android:background="@drawable/usericon_collects"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+                <TextView
+                    android:textSize="15sp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="去淘宝查看我的收藏夹"
+                    android:layout_toRightOf="@+id/mine_fragment_collect"
+                    android:layout_centerVertical="true" />
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/btn_right_arrow"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFF"
+            android:layout_marginTop="8dp">
+
+            <RelativeLayout
+                android:id="@+id/btn_sign"
+                android:paddingLeft="25dp"
+                android:clickable="true"
+                android:background="@drawable/onclick"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <ImageView
+                    android:background="@drawable/usericon_sign"
+                    android:id="@+id/sign_in"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+                <TextView
+                    android:textSize="15sp"
+                    android:id="@+id/sign_in_text"
+                    android:paddingLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="签到领积分"
+                    android:layout_toRightOf="@+id/sign_in"
+                    android:layout_centerVertical="true" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/usericon_new"
+                    android:layout_toRightOf="@+id/sign_in_text"
+                    android:layout_marginTop="5dp"/>
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/btn_right_arrow"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"/>
+            <RelativeLayout
+                android:id="@+id/btn_grade"
+                android:paddingLeft="25dp"
+                android:clickable="true"
+                android:background="@drawable/onclick"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <ImageView
+                    android:id="@+id/grade_image"
+                    android:background="@drawable/usericon_integral"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+                <TextView
+                    android:textSize="15sp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="我的积分"
+                    android:layout_toRightOf="@+id/grade_image"
+                    android:layout_centerVertical="true" />
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/btn_right_arrow"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"/>
+            <RelativeLayout
+                android:id="@+id/btn_store"
+                android:paddingLeft="25dp"
+                android:clickable="true"
+                android:background="@drawable/onclick"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <ImageView
+                    android:id="@+id/store_image"
+                    android:background="@drawable/usericon_mall"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+                <TextView
+                    android:textSize="15sp"
+                     android:paddingLeft="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="积分商城"
+                    android:layout_toRightOf="@+id/store_image"
+                    android:layout_centerVertical="true" />
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/btn_right_arrow"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"/>
+
+        </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+</LinearLayout>

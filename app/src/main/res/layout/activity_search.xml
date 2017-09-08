@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:background="@color/colorAccent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="寻找商品"
+            android:gravity="center_vertical"
+            android:drawablePadding="5dp"
+            android:textColor="#65686A"
+            android:drawableLeft="@mipmap/abs__ic_search_api_holo_light"
+            android:background="#fff"/>
+    </RelativeLayout>
+    <GridView
+        android:id="@+id/gridview_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp"
+        android:numColumns="3">
+    </GridView>
+</LinearLayout>
